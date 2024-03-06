@@ -394,6 +394,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Enemy Galore 1 - Pixel Art/Script/EnemySelector.cs"
 "Assets/Enemy Galore 1 - Pixel Art/Script/EnemyTest.cs"
+"Assets/Enemy.cs"
 "Assets/Joystick Pack/Examples/JoystickPlayerExample.cs"
 "Assets/Joystick Pack/Examples/JoystickSetterExample.cs"
 "Assets/Joystick Pack/Scripts/Base/Joystick.cs"
