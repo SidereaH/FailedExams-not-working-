@@ -404,7 +404,9 @@
 "Assets/Script/Bullet.cs"
 "Assets/Script/Camera_move.cs"
 "Assets/Script/Enemy.cs"
+"Assets/Script/EnemyMovement.cs"
 "Assets/Script/Player.cs"
+"Assets/Script/PlayerAwarenessController.cs"
 -langversion:9.0
 
 /deterministic
