@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B6F098A5-F034-5435-C4B8-456E00DC769A}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\script\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B6F098A5-F034-5435-C4B8-456E00DC769A}|Assembly-CSharp.Player.csproj|c:\\users\\hutor\\desktop\\failedexams\\failedexam\\assets\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F098A5-F034-5435-C4B8-456E00DC769A}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\script\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6F098A5-F034-5435-C4B8-456E00DC769A}|Assembly-CSharp.Player.csproj|C:\\Users\\hutor\\Desktop\\FailedExams\\FailedExam\\Assets\\Script\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6F098A5-F034-5435-C4B8-456E00DC769A}|Assembly-CSharp.Player.csproj|solutionrelative:Assets\\Script\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\hutor\\Desktop\\FailedExams\\FailedExam\\Assets\\Script\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Bullet.cs",
+              "ToolTip": "C:\\Users\\hutor\\Desktop\\FailedExams\\FailedExam\\Assets\\Script\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Script\\Bullet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T18:16:18.885Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +49,14 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Enemy.cs",
               "ToolTip": "C:\\Users\\hutor\\Desktop\\FailedExams\\FailedExam\\Assets\\Script\\Enemy.cs",
               "RelativeToolTip": "Assets\\Script\\Enemy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowE8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T17:44:27.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Camera_move.cs",
               "DocumentMoniker": "C:\\Users\\hutor\\Desktop\\FailedExams\\FailedExam\\Assets\\Script\\Camera_move.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Camera_move.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Assets\\Script\\Camera_move.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T17:44:11.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T17:44:11.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\hutor\\Desktop\\FailedExams\\FailedExam\\Assets\\Script\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "Assets\\Script\\Player.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T17:44:11.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T17:44:11.588Z"
             }
           ]
         }
