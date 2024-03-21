@@ -116,6 +116,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
@@ -328,6 +329,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PsdPlugin.ref.dll"
@@ -358,6 +361,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Collections.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEditorBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEditorBridge.005.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
@@ -392,13 +397,6 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Enemy Galore 1 - Pixel Art/Script/EnemySelector.cs"
 "Assets/Enemy Galore 1 - Pixel Art/Script/EnemyTest.cs"
-"Assets/Joystick Pack/Examples/JoystickPlayerExample.cs"
-"Assets/Joystick Pack/Examples/JoystickSetterExample.cs"
-"Assets/Joystick Pack/Scripts/Base/Joystick.cs"
-"Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs"
-"Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
-"Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
-"Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
 "Assets/Script/Bullet.cs"
 "Assets/Script/Camera_move.cs"
 "Assets/Script/Enemy.cs"
