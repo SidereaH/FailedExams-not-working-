@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private Vector2 moveVelocity;
+    private Vector2 smoothMovementInput;
+    private Vector2 movementInputSmoothVelocity;
     /*void Start()
     {
        
@@ -40,9 +42,12 @@ public class Player : MonoBehaviour
      {
          rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
      }*/
-    private void Update()
+    private void FixedUpdate()
     {
-        rb.velocity = moveInput * speed;
+        smoothMovementInput = Vector2.SmoothDamp(smoothMovementInput, moveInput, ref movementInputSmoothVelocity, 0.1f);
+
+        rb.velocity = smoothMovementInput * speed;
+
     }
     private void OnMove(InputValue inputValue)
     {
