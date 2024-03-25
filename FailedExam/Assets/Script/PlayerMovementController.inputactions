@@ -15,7 +15,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Fire",
+                    "name": "Attack",
                     "type": "Button",
                     "id": "bcfcf6da-0297-4cc9-a737-8c09b98e7f88",
                     "expectedControlType": "Button",
@@ -94,11 +94,50 @@
                 {
                     "name": "",
                     "id": "6c285ed7-2f4d-41f2-b5e3-b8b05af7ec78",
-                    "path": "",
+                    "path": "<XInputController>/buttonWest",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Fire",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73393d66-332d-4d7d-ada2-5b9da269d1fa",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UIMenu",
+            "id": "43ac3082-79cd-4775-97d3-f1370433df6a",
+            "actions": [
+                {
+                    "name": "EnterPause",
+                    "type": "Button",
+                    "id": "2c681dc6-9a0d-431a-a6ad-a8e9dcb64261",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d960caff-1832-44b6-8b83-8935987bdf35",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EnterPause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
