@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public ContactFilter2D movementFilter;
     List<RaycastHit2D> castCollisions = new List<RaycastHit2D>();
     public float collisionOffset = 0.5f;
+    Animator animator;
     
     /*void Start()
     {
@@ -44,6 +45,7 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
     /* private void FixedUpdate()
      {
@@ -62,7 +64,7 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        SetPlayerVelocity();
+        //SetPlayerVelocity();
        // RotateInDirectionOfInput();
        if(moveInput != Vector2.zero)
         {
@@ -75,11 +77,15 @@ public class Player : MonoBehaviour
                     success = TryMove(new Vector2(0, moveInput.y));
                 } 
             }
-
+            animator.SetBool("isRunning", success);
+        }
+        else
+        {
+            animator.SetBool("isRunning", false);
         }
 
     }
-    private void SetPlayerVelocity()
+    /*private void SetPlayerVelocity()
     {
         smoothMovementInput = Vector2.SmoothDamp(smoothMovementInput, moveInput, ref movementInputSmoothVelocity, 0.1f);
 
