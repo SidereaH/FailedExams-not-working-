@@ -1,9 +1,5 @@
 {
   "dependencies": {
-<<<<<<< HEAD
-    "com.unity.cinemachine": "2.9.7",
-=======
->>>>>>> origin/main
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.2d": "2.0.0",
     "com.unity.feature.mobile": "1.0.0",
