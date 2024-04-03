@@ -114,6 +114,7 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.cinemachine": {
       "version": "2.9.7",
       "depth": 0,
@@ -123,6 +124,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> origin/main
     "com.unity.collab-proxy": {
       "version": "2.2.0",
       "depth": 0,

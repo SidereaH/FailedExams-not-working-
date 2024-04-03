@@ -280,12 +280,17 @@ MonoBehaviour:
   - {fileID: 1805529708}
   - {fileID: 1992799752}
   - {fileID: 2019982260}
+<<<<<<< HEAD
   Player: {fileID: 0}
   Bullet: {fileID: 0}
   action: 0
   rand: 0
   speed: 3
   timer: 2
+=======
+  Bullet: {fileID: 0}
+  speed: 3
+>>>>>>> origin/main
 --- !u!1 &206822525
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +545,10 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+<<<<<<< HEAD
   - component: {fileID: 519420033}
+=======
+>>>>>>> origin/main
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -591,7 +599,11 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
+<<<<<<< HEAD
   orthographic size: 4.288814
+=======
+  orthographic size: 2.33
+>>>>>>> origin/main
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -615,6 +627,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.97, z: -9.239353}
   m_LocalScale: {x: 0, y: 0, z: 0}
@@ -656,6 +669,15 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10.760647}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1986584233}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> origin/main
 --- !u!1 &613979271
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +762,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &883352683
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,6 +930,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.753831, y: 7.1740556}
   m_EdgeRadius: 0
+=======
+>>>>>>> origin/main
 --- !u!1 &972367411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,6 +1718,7 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+<<<<<<< HEAD
 --- !u!1 &1252579706
 GameObject:
   m_ObjectHideFlags: 3
@@ -1866,6 +1892,8 @@ Transform:
   - {fileID: 1252579707}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> origin/main
 --- !u!1 &1337169001
 GameObject:
   m_ObjectHideFlags: 0
@@ -4028,7 +4056,11 @@ Transform:
   m_LocalScale: {x: 4.43, y: 4.43, z: 4.43}
   m_ConstrainProportionsScale: 1
   m_Children:
+<<<<<<< HEAD
   - {fileID: 883352684}
+=======
+  - {fileID: 519420032}
+>>>>>>> origin/main
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1986584235
@@ -4145,8 +4177,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98ff2ec463cd0da4d8913092a6477c48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   moveSpeed: 5
   collisionOffset: 0.1
+=======
+  speed: 5
+  rotationSpeed: 3
+>>>>>>> origin/main
   movementFilter:
     useTriggers: 0
     useLayerMask: 0
@@ -4161,7 +4198,11 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+<<<<<<< HEAD
   swordAttack: {fileID: 883352687}
+=======
+  collisionOffset: 0.1
+>>>>>>> origin/main
 --- !u!212 &1986584240
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4407,7 +4448,10 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+<<<<<<< HEAD
   - {fileID: 519420032}
+=======
+>>>>>>> origin/main
   - {fileID: 1986584233}
   - {fileID: 13768464}
   - {fileID: 1114051483}
@@ -4415,4 +4459,7 @@ SceneRoots:
   - {fileID: 972367413}
   - {fileID: 1960519836}
   - {fileID: 1834883246}
+<<<<<<< HEAD
   - {fileID: 1320397100}
+=======
+>>>>>>> origin/main
